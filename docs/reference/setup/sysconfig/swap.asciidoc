@@ -55,7 +55,7 @@ line to the `config/elasticsearch.yml` file:
 
 [source,yaml]
 --------------
-bootstrap.memory_lock: true
+bootstrap.mlockall: true
 --------------
 
 WARNING: `mlockall` might cause the JVM or shell session to exit if it tries to
